@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <script>
+       //normal function
+      function addFun(a,b){
+        console.log(a*b);
+        console.log(a+b);
+        console.log(a/b);
+      }addFun(10,8);
+      //Anonymous function
+      var add=function(a,b){
+        console.log(a+b);
+        console.log(a-b);
+        console.log(a*b);
+      }
+      add(13,6);
+      //Arrow function
+      const addVal=(a,b)=>{console.log(a+b);}
+      addVal(20,10);
+      //IIFE function
+      (function(a,b){
+        console.log(a/b);
+      })(7,4);
+    </script>
+   
+</body>
+</html>

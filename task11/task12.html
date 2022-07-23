@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>java script DOM(Document Object model)</h1>
+        <script> 
+        var c =document.createElement('div');
+        var d=document.createElement('demo');
+        c.innerText='hai hello';
+        d.innerText='agalya';
+        c.style.color='green';
+        c.style.fontSize=50;
+        d.style.color='blue';
+        d.style.fontSize=50;
+        d.style.fontStyle='italic';
+        c.style.fontStyle='italic';
+        d.style.textAlign='right';
+        document.body.appendChild(c);
+        document.body.appendChild(d);
+        </script>
+</body>
+</html>
